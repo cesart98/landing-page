@@ -21,3 +21,20 @@ body {
     list-style-type: none;
     gap: 10px;
 }
+
+.headline {
+    display: flex;
+}
+
+.headline-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-right {
+    box-sizing: border-box;
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
