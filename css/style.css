@@ -38,3 +38,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+.support-bottom {
+    list-style-type: none;
+}
+
+.card {
+    height: 40px;
+    width: 40px;
+}
