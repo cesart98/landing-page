@@ -39,7 +39,7 @@ body {
 .hero-left,
 .hero-right {
     display: flex;
-    width: 450px;
+    width: 560px;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
@@ -114,7 +114,6 @@ body {
     align-items: center;
     width: 180px;
     gap: 15px;
-    flex: 1 0 auto;
 }
 
 .support-bottom p {
@@ -134,22 +133,33 @@ body {
 
 .testimonial {
     display: flex;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
     flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
+}
+
+.testimonial-top,
+.testimonial-bottom {
+    margin: 0px;
+    padding: 0px;
+    width: 900px;
+    display: flex;
 }
 
 .testimonial-top {
     font-style: italic;
-    display: flex;
     justify-content: left;
     font-size: 36px;
     color: #1F2937;
     font-weight: lighter;
-    font-style: italic;
 }
 
 .testimonial-bottom {
-    display: flex;
+    font-size: 24px;
     font-weight: bold;
     justify-content: right;
 }
