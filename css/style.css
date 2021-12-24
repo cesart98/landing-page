@@ -28,44 +28,50 @@ body {
     gap: 10px;
 }
 
-.headline {
+.hero {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.headline-left {
+.hero-left,
+.hero-right {
     display: flex;
+    width: 400px;
+    justify-content: center;
+    width: 400px;
     flex-direction: column;
+    gap: 10px;
 }
 
-.headline-left h1{
+.hero-left h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0px;
 }
 
-.headline-left p {
+.hero-left p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0px;
 }
 
-.headline-left button {
-    width: 75px;
+.hero-left button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
     background-color: #3882F6;
     color: white;
+    margin: 0px;
 }
 
-.headline-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.headline-image {
+.hero-image {
     box-sizing: border-box;
-    height: 40px;
-    width: 120px;
+    height: 150px;
+    width: 400px;
 }
 
 .support {
