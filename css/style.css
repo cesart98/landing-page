@@ -85,6 +85,7 @@ body {
     flex-direction: column;
     gap: 30px;
     align-items: center;
+    justify-content: center;
 }
 
 .support h2 {
@@ -98,23 +99,25 @@ body {
 
 .support-bottom {
     margin: 0px;
+    width: 900px;
     display: flex;
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
 }
 
-.card {
+.support-bottom div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 180px;
     gap: 15px;
+    flex: 1 0 auto;
 }
 
-.card p {
+.support-bottom p {
     margin: 0px;
     display: flex;
     font-size: 18px;
