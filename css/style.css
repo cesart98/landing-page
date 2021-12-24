@@ -24,6 +24,7 @@ body {
 
 .headline {
     display: flex;
+    justify-content: center;
 }
 
 .headline-left {
@@ -31,12 +32,20 @@ body {
     flex-direction: column;
 }
 
+.headline-left button {
+    width: 75px;
+}
+
 .headline-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline-image {
     box-sizing: border-box;
     height: 40px;
     width: 120px;
-    align-items: center;
-    justify-content: center;
 }
 
 .support {
