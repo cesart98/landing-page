@@ -87,3 +87,10 @@ body {
     font-weight: bold;
     justify-content: right;
 }
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
