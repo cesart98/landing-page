@@ -70,3 +70,20 @@ body {
     border: 2px solid blue;
     border-radius: 10px;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-top {
+    font-style: italic;
+    display: flex;
+    justify-content: left;
+}
+
+.testimonial-bottom {
+    display: flex;
+    font-weight: bold;
+    justify-content: right;
+}
