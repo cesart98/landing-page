@@ -39,9 +39,8 @@ body {
 .hero-left,
 .hero-right {
     display: flex;
-    width: 400px;
+    width: 450px;
     justify-content: center;
-    width: 400px;
     flex-direction: column;
     gap: 10px;
 }
@@ -68,6 +67,10 @@ body {
     margin: 0px;
 }
 
+.hero-right {
+    align-items: center;
+}
+
 .hero-image {
     box-sizing: border-box;
     height: 150px;
@@ -75,11 +78,17 @@ body {
 }
 
 .support {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    align-items: center;
 }
 
-.support-top {
+.support h2 {
+    margin: 0px;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -88,11 +97,12 @@ body {
 }
 
 .support-bottom {
+    margin: 0px;
     display: flex;
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .card {
@@ -100,13 +110,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 180px;
+    gap: 15px;
+}
+
+.card p {
+    margin: 0px;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
 }
 
 .placeholder-box {
-    height: 40px;
-    width: 40px;
+    height: 180px;
+    width: 180px;
     border: 2px solid blue;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .testimonial {
