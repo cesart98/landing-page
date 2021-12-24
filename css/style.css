@@ -39,12 +39,34 @@ body {
     justify-content: center;
 }
 
+.support {
+    display: flex;
+    flex-direction: column;
+}
+
+.support-top {
+    display: flex;
+    justify-content: center;
+}
 
 .support-bottom {
+    display: flex;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-box {
     height: 40px;
     width: 40px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
