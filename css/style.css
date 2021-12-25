@@ -10,9 +10,19 @@ body {
     align-items: center;
 }
 
+.header, .hero, .support, .testimonial, .signup, .footer {
+    display: flex;
+}
+
+.header,
+.footer {
+    margin: 0px;
+    padding: 15px 50%;
+    background-color: #1F2937;
+}
+
 .header,
 .signup {
-    display: flex;
     width: 1120px;
     align-items: center;
     justify-content: space-between;
@@ -21,17 +31,10 @@ body {
 
 .support,
 .testimonial {
-    display: flex;
     margin: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.header {
-    margin: 0px;
-    padding: 15px 50% 15px 50%;
-    background-color: #1F2937;
 }
 
 .header h3 {
@@ -49,14 +52,10 @@ body {
 }
 
 .hero {
-    display: flex;
     margin: 0px;
-    padding-left: 50%;
-    padding-right: 50%;
+    padding: 50px 50%;
     justify-content: center;
     background-color: #1F2937;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .hero-left,
@@ -81,7 +80,7 @@ body {
     margin: 0px;
 }
 
-.hero-left button {
+button {
     width: 100px;
     height: 30px;
     border-radius: 5px;
@@ -102,7 +101,7 @@ body {
 }
 
 .support {
-    padding: 30px 50% 50px 50%;
+    padding: 30px 50%;
     gap: 30px;
 }
 
@@ -135,8 +134,8 @@ body {
 }
 
 .support-bottom p {
-    margin: 0px;
     display: flex;
+    margin: 0px;
     font-size: 18px;
     justify-content: center;
     align-items: center;
@@ -150,7 +149,7 @@ body {
 }
 
 .testimonial {
-    padding: 100px 50% 100px 50%;
+    padding: 100px 50%;
     gap: 10px;
     background-color: #E5E7EB;
 }
@@ -179,7 +178,7 @@ body {
 
 .signup {
     box-sizing: border-box;
-    margin: 60px 50% 60px 50%;
+    margin: 60px 50%;
     flex-direction: row;
     background-color: #3882F6;
     padding: 30px 110px;
@@ -205,22 +204,11 @@ body {
 }
 
 .signup button {
-    width: 100px;
-    height: 30px;
     border: 2px solid white;
-    background-color: #3882F6;
-    border-radius: 5px;
-    color: white;
-    margin: 0px;
-    font-weight: bold;
 }
 
 .footer {
-    display: flex;
     width: 300px;
-    margin: 0px;
-    padding: 15px 50% 15px 50%;
     justify-content: center;
-    background-color: #1F2937;
     color: #F9FAF8;
 }
